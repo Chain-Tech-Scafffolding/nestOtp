@@ -1,0 +1,9 @@
+### check hash pass
+
+POST http://localhost:3000/reg
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
+    "password":"dhanraj@123"
+}
