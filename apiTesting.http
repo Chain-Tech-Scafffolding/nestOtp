@@ -5,5 +5,15 @@ Content-Type: application/json
 
 {
     "email":"choudharydhanraj239@gmail.com",
+    "password":"dhanraj@123",
+    "name":"dhanraj choudhary"
+}
+### check login
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
     "password":"dhanraj@123"
 }
