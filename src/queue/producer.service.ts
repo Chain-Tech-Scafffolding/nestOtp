@@ -1,6 +1,6 @@
 import { HttpException, HttpStatus, Injectable, Logger } from '@nestjs/common';
-import amqp, { ChannelWrapper } from 'amqp-connection-manager';
-import { Channel } from 'amqplib';
+import amqp from 'amqp-connection-manager';
+
 
 @Injectable()
 export class ProducerService {
