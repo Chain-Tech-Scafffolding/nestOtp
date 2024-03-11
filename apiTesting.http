@@ -17,3 +17,12 @@ Content-Type: application/json
     "email":"choudharydhanraj239@gmail.com",
     "password":"dhanraj@123"
 }
+### create todo
+
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+    "name":"dhanraj",
+    "time":"2:00"
+}
